@@ -1,0 +1,25 @@
+.empty {
+    width: 100vw;
+    height: 10vh;
+}
+
+.restart {
+    font-size: 2rem;
+    padding-left: 20px;
+    color: red;
+}
+
+.continue {
+    padding-left: 20px;
+    font-size: 2rem;
+    color: greenyellow;
+}
+
+.or {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icons {
+    display: flex;
+}

@@ -1,0 +1,7 @@
+.learn-container {
+    width: 93vw;
+    overflow-y: hidden;
+}
+.progress-bar-color{
+    background-color: rgb(38, 10, 65);
+}

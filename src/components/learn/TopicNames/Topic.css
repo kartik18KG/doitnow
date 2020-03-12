@@ -1,0 +1,212 @@
+.fill-topic {
+    width: 100vw;
+    height: 5vh;
+}
+
+.speciality-name {
+    margin-top: 5px;
+    background-color: rgba(255, 253, 253, 0.783);
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    width: 100vw;
+    height: 13vh;
+    margin-bottom: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.name-item {
+    padding-right: 10vw;
+}
+
+.speciality-container {
+    margin: 0;
+}
+
+.speciality-topics {}
+
+.topics-overview {
+    display: block;
+    text-align: left;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+.heading {
+    display: block;
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+}
+
+.arrow-down {
+    font-size: 1.5rem;
+}
+
+.arrow-down:hover {
+    transform: scale(1.5);
+}
+
+.read-now {
+    display: unset;
+}
+
+.li:hover .read-now {
+    display: block;
+}
+
+.article-name {
+    margin-left: 40px;
+    color: grey;
+    width: 50vw;
+}
+
+.topic-ovr-container {
+    margin: 0px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.speciality-topic-container:hover {
+    color: black;
+}
+
+.speciality-topic-container {
+    color: #9aa0a6;
+}
+
+.share-icon {
+    font-size: 1.5rem;
+}
+
+.cards {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1px;
+}
+
+
+/* Article container */
+
+.article-container {
+    background-color: #f8f9fa;
+}
+
+.article {
+    padding-right: 7vw;
+    padding-left: 7vw;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+#topic-heading {
+    color: tomato;
+    display: block;
+    float: right;
+}
+
+.topicName {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.scroll {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+ol {
+    margin-left: 3vw;
+}
+
+.article-read {
+    color: #a663cc;
+}
+
+.read-message {
+    visibility: hidden;
+}
+
+.article-read:hover {
+    transform: scale(1.4);
+}
+
+
+/* .article-read:hover .read-message {
+    visibility: visible;
+} */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.article-name-heading {
+    color: rgb(0, 136, 255);
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 300;
+}
+
+.speciality-dropdown {
+    font-size: 1.4rem;
+}
+
+.speciality-dropdown {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+    .speciality-dropdown {
+        visibility: visible;
+    }
+    body {
+        font-size: 1rem;
+    }
+    .speciality-name {
+        font-size: 1rem;
+    }
+    .overview {
+        font-size: 1.4rem;
+    }
+    .list-down {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* 
+.card-header {
+    background-image: url("https://images.pexels.com/photos/1089842/pexels-photo-1089842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+} */
